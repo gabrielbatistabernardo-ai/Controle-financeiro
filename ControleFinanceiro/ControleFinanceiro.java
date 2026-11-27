@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class ControleFinanceiro {
 	
 	public static void main(String args[]) {
-		Scanner scanner = new Scanner (System.in);
-		float despesa = 700;
-		float receita = 900;
-		double conta = (receita - despesa);
-		System.out.println (conta);
+		Scanner scanner = new Scanner(System.in);
 		
-		
-		
+	    System.out.println("Digite o nome e sobrenome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Digite sua receita: ");
+		float receita = scanner.nextFloat();
+		System.out.println("receita total de:R$" + receita);
 		
 	}
 
