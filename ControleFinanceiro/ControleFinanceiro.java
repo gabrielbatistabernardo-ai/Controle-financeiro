@@ -11,6 +11,11 @@ public class ControleFinanceiro {
         System.out.println("Digite sua receita: ");
 		float receita = scanner.nextFloat();
 		System.out.println("receita total de:R$" + receita);
+
+        System.out.println("Digite sua despesa: ");
+		float despesa = scanner.nextFloat();
+		System.out.println("Despesa total de:R$" + despesa);
+
 		
 	}
 
